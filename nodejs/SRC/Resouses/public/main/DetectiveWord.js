@@ -8,7 +8,7 @@ function DeleteRoomInDatabase(data)
     }
     
             
-    axios.post(`134.209.108.2/3001/HarvestFestival/edit`,request
+    axios.post(`134.209.108.2:3001/HarvestFestival/edit`,request
     , {
         headers: {
           'Content-Type': 'application/json',
