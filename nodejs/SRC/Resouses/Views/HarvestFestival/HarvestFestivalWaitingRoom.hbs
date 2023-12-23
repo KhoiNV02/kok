@@ -631,7 +631,7 @@
       }, 1000);
       //lấy từ lên
       var beforeVocabularyArray = [];
-       axios.get(`134.209.108.2:3001/harvestfestival/GetWord`)
+       axios.get(`/harvestfestival/GetWord`)
     .then(response => {
         for (var i=0;i<response.data.length;i++)
         beforeVocabularyArray.push(response.data[i].Word);
